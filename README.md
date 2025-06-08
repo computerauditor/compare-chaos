@@ -29,6 +29,11 @@ go build -o compare-chaos compare-chaos.go
 Move to /usr/local/bin [OPTIONAL]
 
 ```
+mv /go/bin/compare-chaos /bin
+```
+
+OR
+```
 mv /go/bin/compare-chaos /usr/local/bin
 ```
 
@@ -62,6 +67,10 @@ results/
 
 ```bash
 go run compare-chaos.go [options]
+````
+EXAMPLE:
+```bash
+./compare-chaos -n chaos-data/chaos-output-2025-06-08 -p chaos-data/chaos-output-2025-06-07/ -output output/results -nu
 ````
 
 ### 📋 Flags
