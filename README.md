@@ -19,7 +19,7 @@ A utility to compare outputs from [ProjectDiscovery's Chaos](https://chaos.proje
 ## Installation
 
 ```
-go install https://github.com/computerauditor/compare-chaos@latest
+go install github.com/computerauditor/compare-chaos@latest
 ```
 
 Can Build a go binary using : 
