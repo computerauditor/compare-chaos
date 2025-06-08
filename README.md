@@ -22,7 +22,7 @@ A utility to compare outputs from [ProjectDiscovery's Chaos](https://chaos.proje
 go install github.com/computerauditor/compare-chaos@latest
 ```
 
-Can Build a go binary using : 
+Can Build a go binary using yourself [OPTIONAL] : 
 ```
 go build -o compare-chaos compare-chaos.go
 ```
@@ -70,7 +70,7 @@ go run compare-chaos.go [options]
 ````
 EXAMPLE:
 ```bash
-./compare-chaos -n chaos-data/chaos-output-2025-06-08 -p chaos-data/chaos-output-2025-06-07/ -output output/results -nu
+compare-chaos -n chaos-data/chaos-output-2025-06-08 -p chaos-data/chaos-output-2025-06-07/ -output output/results -nu
 ````
 
 ### 📋 Flags
